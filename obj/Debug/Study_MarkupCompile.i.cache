@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Programs\Microsoft Visual Studio\Repos\Study\obj\Debug\
+D:\Programs\Microsoft Visual Studio\Repos\StudyGit\obj\Debug\
 Study
 none
 false
 DEBUG;TRACE
-D:\Programs\Microsoft Visual Studio\Repos\Study\App.xaml
-11151548125
+D:\Programs\Microsoft Visual Studio\Repos\StudyGit\App.xaml
+3-30303674
 
-6-453952468
+8582670165
 13-1505183044
-MainWindow.xaml;
+ExpenseItHome.xaml;ExpenseReportPage.xaml;MainWindow.xaml;
 
 True
 
