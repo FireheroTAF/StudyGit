@@ -20,6 +20,8 @@ namespace Study
     /// </summary>
     public partial class ExpenseItHome : Page
     {
+        public string Name = "Name";
+        public string ActualName = "";
         public ExpenseItHome()
         {
             InitializeComponent();
@@ -31,6 +33,11 @@ namespace Study
             ExpenseReportPage expenseReportPage = new ExpenseReportPage(this.peopleListBox.SelectedItem);
             this.NavigationService.Navigate(expenseReportPage);
 
+        }
+
+        private void PeopleListBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            this.DataContext = this.peopleListBox.SelectedItem;
         }
     }
 }

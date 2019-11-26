@@ -23,7 +23,7 @@
         </Grid.Resources>
         
         <Grid.Background>
-            <ImageBrush ImageSource="watermark.png" />
+            <ImageBrush ImageSource="vatermarken.jpg" />
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="230" />
